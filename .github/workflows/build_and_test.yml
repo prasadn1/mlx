@@ -79,7 +79,7 @@ jobs:
   windows_build_and_test:
     name: Windows (cpu, x86_64)
     needs: check_lint
-    runs-on: windows-2025
+    runs-on: windows-2025-large
     steps:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup-windows
